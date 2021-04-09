@@ -57666,12 +57666,22 @@
 	c_tag = "Atmospherics - HFR Main Room";
 	name = "atmospherics camera"
 	},
+/obj/effect/turf_decal/siding/yellow{
+	color = "#FFD700";
+	dir = 1;
+	name = "engineering yellow"
+	},
 /turf/open/floor/iron,
 /area/engineering/atmos)
 "cxF" = (
 /obj/structure/rack,
 /obj/item/stack/sheet/iron/fifty,
 /obj/item/stack/sheet/glass/fifty,
+/obj/effect/turf_decal/siding/yellow{
+	color = "#FFD700";
+	dir = 1;
+	name = "engineering yellow"
+	},
 /turf/open/floor/iron,
 /area/engineering/atmos)
 "cxG" = (
@@ -57682,6 +57692,11 @@
 	pixel_y = 24
 	},
 /obj/structure/closet/radiation,
+/obj/effect/turf_decal/siding/yellow{
+	color = "#FFD700";
+	dir = 5;
+	name = "engineering yellow"
+	},
 /turf/open/floor/iron,
 /area/engineering/atmos)
 "cxH" = (
@@ -60262,6 +60277,11 @@
 /obj/item/circuitboard/machine/HFR_moderator_input,
 /obj/item/circuitboard/machine/HFR_waste_output,
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible,
+/obj/effect/turf_decal/siding/yellow{
+	color = "#FFD700";
+	dir = 4;
+	name = "engineering yellow"
+	},
 /turf/open/floor/iron,
 /area/engineering/atmos)
 "cDD" = (
@@ -71843,6 +71863,16 @@
 	},
 /turf/open/floor/iron/dark,
 /area/ai_monitored/security/armory)
+"jTp" = (
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible{
+	dir = 6
+	},
+/obj/effect/turf_decal/siding/yellow{
+	color = "#FFD700";
+	name = "engineering yellow"
+	},
+/turf/open/floor/iron,
+/area/engineering/atmos)
 "jUc" = (
 /turf/open/floor/plating{
 	icon_state = "platingdmg3"
@@ -72454,6 +72484,10 @@
 "luK" = (
 /obj/machinery/atmospherics/components/binary/valve{
 	dir = 8
+	},
+/obj/effect/turf_decal/siding/yellow{
+	color = "#FFD700";
+	name = "engineering yellow"
 	},
 /turf/open/floor/iron,
 /area/engineering/atmos)
@@ -75006,7 +75040,7 @@
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible{
 	dir = 4
 	},
-/turf/open/floor/plating,
+/turf/open/floor/iron,
 /area/engineering/atmos)
 "rwL" = (
 /obj/structure/sign/poster/official/random{
@@ -75605,6 +75639,17 @@
 	},
 /turf/open/floor/plating,
 /area/engineering/main)
+"sTs" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/yellow{
+	color = "#FFD700";
+	dir = 4;
+	name = "engineering yellow"
+	},
+/turf/open/floor/iron,
+/area/engineering/atmos)
 "sUr" = (
 /obj/effect/turf_decal/siding/yellow{
 	color = "#FFD700";
@@ -75612,6 +75657,14 @@
 	},
 /turf/open/floor/iron,
 /area/command/heads_quarters/ce)
+"sVL" = (
+/obj/effect/turf_decal/siding/yellow{
+	color = "#FFD700";
+	dir = 10;
+	name = "engineering yellow"
+	},
+/turf/open/floor/iron,
+/area/engineering/atmos)
 "sWI" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
@@ -75690,6 +75743,10 @@
 	pixel_y = 3
 	},
 /obj/item/stack/sheet/plasteel/fifty,
+/obj/effect/turf_decal/siding/yellow{
+	color = "#FFD700";
+	name = "engineering yellow"
+	},
 /turf/open/floor/iron,
 /area/engineering/atmos)
 "teP" = (
@@ -76455,6 +76512,11 @@
 /area/security/prison)
 "uWH" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on,
+/obj/effect/turf_decal/siding/yellow{
+	color = "#FFD700";
+	dir = 4;
+	name = "engineering yellow"
+	},
 /turf/open/floor/iron,
 /area/engineering/atmos)
 "uWN" = (
@@ -76593,6 +76655,15 @@
 	},
 /turf/open/floor/iron/dark,
 /area/ai_monitored/turret_protected/aisat/atmos)
+"voE" = (
+/obj/machinery/atmospherics/pipe/smart/simple/cyan/hidden/layer2,
+/obj/effect/turf_decal/siding/yellow{
+	color = "#FFD700";
+	dir = 4;
+	name = "engineering yellow"
+	},
+/turf/open/floor/iron,
+/area/engineering/atmos)
 "voN" = (
 /obj/effect/turf_decal/siding/red{
 	color = "#FF0000";
@@ -77573,6 +77644,11 @@
 /obj/machinery/atmospherics/components/binary/valve{
 	dir = 8
 	},
+/obj/effect/turf_decal/siding/yellow{
+	color = "#FFD700";
+	dir = 6;
+	name = "engineering yellow"
+	},
 /turf/open/floor/iron,
 /area/engineering/atmos)
 "xRW" = (
@@ -77659,6 +77735,11 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible{
 	dir = 5
+	},
+/obj/effect/turf_decal/siding/yellow{
+	color = "#FFD700";
+	dir = 4;
+	name = "engineering yellow"
 	},
 /turf/open/floor/iron,
 /area/engineering/atmos)
@@ -98416,13 +98497,13 @@ dEZ
 cmU
 lJc
 bXs
-crj
-crj
-crj
-crj
-crj
-crj
-crj
+nRh
+wNZ
+wNZ
+wNZ
+wNZ
+wNZ
+sVL
 coW
 aaa
 cJq
@@ -98673,13 +98754,13 @@ jOg
 cmU
 imH
 knY
-crj
+vEO
 cwD
 cwD
 ctF
 crj
 cwD
-crj
+wEW
 coW
 aaa
 cJq
@@ -98930,13 +99011,13 @@ clE
 cmU
 imH
 knY
-crj
+vEO
 crj
 cvm
 ctG
 qPR
 crj
-crj
+wEW
 coW
 aaa
 cBH
@@ -99187,13 +99268,13 @@ clF
 cmU
 imH
 bXs
-crj
+vEO
 uwQ
 nAj
 eKm
 cuZ
 cwD
-crj
+wEW
 cKj
 aaa
 aaa
@@ -99450,7 +99531,7 @@ qPR
 kme
 cvm
 cwD
-cyD
+jTp
 icc
 mnG
 aaa
@@ -99701,7 +99782,7 @@ clG
 cmU
 cnV
 knY
-crj
+vEO
 cwD
 crj
 nZg
@@ -100219,8 +100300,8 @@ cxG
 uWH
 cDC
 yfK
-cDK
-sYy
+voE
+sTs
 xRu
 coW
 aaa
