@@ -59892,9 +59892,7 @@
 /turf/open/floor/iron,
 /area/engineering/atmos)
 "cCJ" = (
-/obj/machinery/atmospherics/components/binary/pump{
-	name = "Mix to Engine"
-	},
+/obj/machinery/atmospherics/pipe/smart/simple/general/visible,
 /turf/open/floor/iron,
 /area/engineering/atmos)
 "cCL" = (
@@ -60438,8 +60436,10 @@
 /turf/open/floor/iron,
 /area/engineering/atmos)
 "cDZ" = (
-/obj/machinery/atmospherics/pipe/smart/simple/orange/visible,
-/obj/machinery/atmospherics/pipe/bridge_pipe/yellow/visible{
+/obj/machinery/atmospherics/components/binary/pump{
+	name = "Mix to Engine"
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/yellow/visible{
 	dir = 4
 	},
 /turf/open/floor/iron,
@@ -61307,13 +61307,6 @@
 /turf/open/floor/engine,
 /area/engineering/main)
 "cGb" = (
-/obj/machinery/atmospherics/pipe/smart/simple/purple/visible{
-	dir = 4
-	},
-/turf/open/floor/engine,
-/area/engineering/main)
-"cGc" = (
-/obj/structure/cable,
 /obj/machinery/atmospherics/components/binary/pump{
 	dir = 8;
 	name = "Mix to Gas"
@@ -61371,7 +61364,10 @@
 /obj/machinery/atmospherics/pipe/smart/simple/green/visible{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/bridge_pipe/yellow/visible,
+/obj/machinery/atmospherics/components/binary/pump{
+	dir = 1;
+	name = "CO2 Outlet Pump"
+	},
 /turf/open/floor/iron,
 /area/engineering/atmos)
 "cGn" = (
@@ -61836,10 +61832,6 @@
 /turf/open/floor/iron,
 /area/engineering/atmos)
 "cHn" = (
-/obj/machinery/atmospherics/components/binary/pump/on{
-	dir = 1;
-	name = "N2 Outlet Pump"
-	},
 /obj/effect/turf_decal/tile/red{
 	color = "#FF0000";
 	dir = 4;
@@ -61863,6 +61855,7 @@
 	color = "#FFD700";
 	name = "engineering yellow"
 	},
+/obj/machinery/atmospherics/pipe/smart/simple/yellow/visible,
 /turf/open/floor/iron,
 /area/engineering/atmos)
 "cHo" = (
@@ -61903,10 +61896,6 @@
 /turf/open/floor/iron,
 /area/engineering/atmos)
 "cHr" = (
-/obj/machinery/atmospherics/components/binary/pump/on{
-	dir = 1;
-	name = "O2 Outlet Pump"
-	},
 /obj/effect/turf_decal/tile/blue{
 	color = "#4169E1";
 	dir = 1;
@@ -61930,6 +61919,7 @@
 	color = "#FFD700";
 	name = "engineering yellow"
 	},
+/obj/machinery/atmospherics/pipe/smart/simple/yellow/visible,
 /turf/open/floor/iron,
 /area/engineering/atmos)
 "cHs" = (
@@ -61980,10 +61970,6 @@
 /turf/open/floor/iron,
 /area/engineering/atmos)
 "cHv" = (
-/obj/machinery/atmospherics/components/binary/pump/on{
-	dir = 1;
-	name = "Air Outlet Pump"
-	},
 /obj/effect/turf_decal/tile/neutral{
 	alpha = 255;
 	dir = 8
@@ -62003,6 +61989,7 @@
 	color = "#FFD700";
 	name = "engineering yellow"
 	},
+/obj/machinery/atmospherics/pipe/smart/simple/cyan/visible,
 /turf/open/floor/iron,
 /area/engineering/atmos)
 "cHw" = (
@@ -62048,10 +62035,6 @@
 /turf/open/floor/iron,
 /area/engineering/atmos)
 "cHz" = (
-/obj/machinery/atmospherics/components/binary/pump{
-	dir = 1;
-	name = "CO2 Outlet Pump"
-	},
 /obj/effect/turf_decal/tile/neutral{
 	alpha = 255;
 	color = "#000000";
@@ -62079,6 +62062,7 @@
 	color = "#FFD700";
 	name = "engineering yellow"
 	},
+/obj/machinery/atmospherics/pipe/smart/simple/yellow/visible,
 /turf/open/floor/iron,
 /area/engineering/atmos)
 "cHA" = (
@@ -62128,10 +62112,6 @@
 	name = "Atmos Camera";
 	network = list("ss13","engineering","atmos")
 	},
-/obj/machinery/atmospherics/components/binary/pump{
-	dir = 1;
-	name = "Plasma Outlet Pump"
-	},
 /obj/effect/turf_decal/tile{
 	color = "#FF6700";
 	dir = 4;
@@ -62155,6 +62135,7 @@
 	color = "#FFD700";
 	name = "engineering yellow"
 	},
+/obj/machinery/atmospherics/pipe/smart/simple/yellow/visible,
 /turf/open/floor/iron,
 /area/engineering/atmos)
 "cHE" = (
@@ -62947,10 +62928,6 @@
 /turf/open/floor/iron,
 /area/engineering/atmos)
 "cJk" = (
-/obj/machinery/atmospherics/components/binary/pump{
-	dir = 1;
-	name = "N2O Outlet Pump"
-	},
 /obj/effect/turf_decal/tile/red{
 	color = "#FF0000";
 	dir = 1;
@@ -62973,6 +62950,7 @@
 	dir = 6;
 	name = "engineering yellow"
 	},
+/obj/machinery/atmospherics/pipe/smart/simple/yellow/visible,
 /turf/open/floor/iron,
 /area/engineering/atmos)
 "cJl" = (
@@ -63388,9 +63366,8 @@
 /area/engineering/supermatter)
 "cKe" = (
 /obj/structure/cable,
-/obj/machinery/atmospherics/components/binary/pump{
-	dir = 4;
-	name = "Gas to Mix"
+/obj/machinery/atmospherics/pipe/smart/simple/purple/visible{
+	dir = 4
 	},
 /turf/open/floor/engine,
 /area/engineering/main)
@@ -63569,6 +63546,9 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible{
+	dir = 6
+	},
 /turf/open/floor/engine,
 /area/engineering/main)
 "cKC" = (
@@ -63577,6 +63557,9 @@
 	},
 /obj/machinery/status_display/ai{
 	pixel_y = 30
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible{
+	dir = 4
 	},
 /turf/open/floor/engine,
 /area/engineering/main)
@@ -63632,8 +63615,8 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
-/obj/machinery/atmospherics/components/unary/vent_pump/on{
-	dir = 4
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 8
 	},
 /turf/open/floor/engine,
 /area/engineering/main)
@@ -63642,9 +63625,6 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden{
 	dir = 4
 	},
 /turf/open/floor/engine,
@@ -64387,9 +64367,6 @@
 /area/engineering/main)
 "cMM" = (
 /obj/effect/turf_decal/caution/stand_clear,
-/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden{
-	dir = 4
-	},
 /turf/open/floor/engine,
 /area/engineering/main)
 "cMN" = (
@@ -64477,12 +64454,12 @@
 /obj/item/radio/intercom{
 	pixel_y = -30
 	},
-/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible{
-	dir = 4
-	},
 /obj/effect/turf_decal/siding/yellow{
 	color = "#FFD700";
 	name = "engineering yellow"
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible{
+	dir = 4
 	},
 /turf/open/floor/engine,
 /area/engineering/main)
@@ -64716,9 +64693,6 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
-/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden{
-	dir = 4
-	},
 /turf/open/floor/engine,
 /area/engineering/main)
 "cNw" = (
@@ -64730,8 +64704,7 @@
 	name = "Engine Camera";
 	network = list("ss13","engineering","engine")
 	},
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on,
-/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden{
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
 	dir = 4
 	},
 /turf/open/floor/engine,
@@ -68370,25 +68343,33 @@
 /turf/open/floor/engine,
 /area/engineering/main)
 "cWz" = (
-/obj/machinery/atmospherics/pipe/smart/simple/cyan/visible{
+/obj/machinery/atmospherics/pipe/smart/simple/green/visible{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/bridge_pipe/scrubbers/visible,
-/turf/open/floor/engine,
-/area/engineering/main)
+/obj/machinery/atmospherics/components/binary/pump/on{
+	dir = 1;
+	name = "N2 Outlet Pump"
+	},
+/turf/open/floor/iron,
+/area/engineering/atmos)
 "cWA" = (
-/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible{
+/obj/machinery/atmospherics/pipe/smart/simple/green/visible{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/bridge_pipe/scrubbers/visible,
-/turf/open/floor/engine,
-/area/engineering/main)
+/obj/machinery/atmospherics/components/binary/pump/on{
+	dir = 1;
+	name = "O2 Outlet Pump"
+	},
+/turf/open/floor/iron,
+/area/engineering/atmos)
 "cWB" = (
 /obj/machinery/light,
-/obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/visible,
 /obj/effect/turf_decal/siding/yellow{
 	color = "#FFD700";
 	name = "engineering yellow"
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible{
+	dir = 4
 	},
 /turf/open/floor/engine,
 /area/engineering/main)
@@ -70249,7 +70230,10 @@
 	dir = 4;
 	name = "engineering yellow"
 	},
-/obj/machinery/atmospherics/pipe/bridge_pipe/yellow/visible,
+/obj/machinery/atmospherics/components/binary/pump{
+	dir = 1;
+	name = "N2O Outlet Pump"
+	},
 /turf/open/floor/iron,
 /area/engineering/atmos)
 "fZz" = (
@@ -70338,6 +70322,16 @@
 	},
 /turf/open/floor/iron,
 /area/security/office)
+"gsR" = (
+/obj/machinery/atmospherics/pipe/smart/simple/green/visible{
+	dir = 4
+	},
+/obj/machinery/atmospherics/components/binary/pump/on{
+	dir = 1;
+	name = "Air Outlet Pump"
+	},
+/turf/open/floor/iron,
+/area/engineering/atmos)
 "gth" = (
 /obj/machinery/door/window/northright{
 	req_access_txt = "63"
@@ -71645,6 +71639,13 @@
 	},
 /turf/open/floor/iron/white,
 /area/science/research)
+"jDD" = (
+/obj/machinery/atmospherics/pipe/smart/simple/orange/visible{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/bridge_pipe/scrubbers/visible,
+/turf/open/floor/engine,
+/area/engineering/main)
 "jEQ" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/smart/manifold/supply/hidden/layer4{
@@ -71854,6 +71855,14 @@
 	},
 /turf/open/floor/iron,
 /area/hallway/primary/starboard)
+"jVe" = (
+/obj/effect/turf_decal/siding/yellow{
+	color = "#FFD700";
+	name = "engineering yellow"
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/visible,
+/turf/open/floor/engine,
+/area/engineering/main)
 "jVy" = (
 /obj/effect/turf_decal/siding/purple{
 	dir = 4
@@ -74206,6 +74215,13 @@
 /obj/effect/turf_decal/siding/green,
 /turf/open/floor/iron,
 /area/service/hydroponics)
+"pkx" = (
+/obj/machinery/atmospherics/components/binary/pump{
+	dir = 4;
+	name = "Gas to Mix"
+	},
+/turf/open/floor/engine,
+/area/engineering/main)
 "poK" = (
 /obj/effect/turf_decal/siding/blue/corner{
 	color = "#4169E1";
@@ -77117,6 +77133,16 @@
 	},
 /turf/open/floor/iron/white,
 /area/science/research)
+"wMF" = (
+/obj/machinery/atmospherics/pipe/smart/simple/green/visible{
+	dir = 4
+	},
+/obj/machinery/atmospherics/components/binary/pump{
+	dir = 1;
+	name = "Plasma Outlet Pump"
+	},
+/turf/open/floor/iron,
+/area/engineering/atmos)
 "wNZ" = (
 /obj/effect/turf_decal/siding/yellow{
 	color = "#FFD700";
@@ -94554,9 +94580,9 @@ cIp
 cHc
 cDI
 cKB
-cAW
-cKb
-oop
+cHa
+jDD
+jVe
 cyt
 xOt
 cNR
@@ -96096,8 +96122,8 @@ cHg
 cJm
 cEV
 cNw
-cWz
-cWA
+cLx
+cIm
 cWB
 cyo
 xOt
@@ -97379,7 +97405,7 @@ cGb
 cAW
 cAW
 cAW
-cGb
+pkx
 czR
 czV
 cAW
@@ -97632,7 +97658,7 @@ cBj
 pJv
 czV
 czV
-cGc
+cKe
 czV
 cIt
 czV
@@ -101487,7 +101513,7 @@ csA
 cCC
 cDS
 ctX
-cGj
+cWz
 cHn
 cIy
 cJs
@@ -102515,7 +102541,7 @@ csA
 cAe
 cDU
 cFg
-cGj
+cWA
 cHr
 cIy
 cJs
@@ -103543,7 +103569,7 @@ cBs
 crj
 cAe
 cCC
-cGj
+gsR
 cHv
 cIz
 cJt
@@ -105599,7 +105625,7 @@ cAd
 crj
 cDY
 cFi
-cGm
+wMF
 cHD
 cID
 cJs
